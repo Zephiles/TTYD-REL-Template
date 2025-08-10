@@ -44,7 +44,7 @@ Examples of `make` being used:
 
 The following is an example of building the project for the US version of the game:  
 ```shell
-$ cd /c/Path/To/REL
+$ cd /c/Path/To/TTYD-REL-Template
 $ make us
 cxx.cpp
 draw.cpp
