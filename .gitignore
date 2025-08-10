@@ -1,0 +1,11 @@
+# Build files
+build.*/
+*.elf
+*.rel
+*.gci
+
+# Visual Studio Code files
+.vscode/
+
+# bak files
+*.bak

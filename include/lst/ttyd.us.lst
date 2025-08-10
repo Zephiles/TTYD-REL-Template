@@ -1,0 +1,160 @@
+// camdrv.o
+// 8000E388:camLetterBox
+// 8000E564:camLetterBoxDraw
+// 8000E7E8:getScreenPoint
+// 8000E8A4:camSetTypeOrtho
+// 8000E8C0:camSetTypePersp
+// 8000E8DC:camCtrlOff
+// 8000E8FC:camCtrlOn
+// 8000E91C:L_camDispOff
+8000E93C:L_camDispOn
+// 8000E95C:camSetMode
+// 8000E974:camEffMain
+// 8000EA30:cam3dImgMain
+// 8000EA68:cam3dMain
+// 8000F2D4:camSetCurNo
+// 8000F2DC:camGetCurNo
+// 8000F2E4:camGetCurPtr
+8000F2FC:camGetPtr
+// 8000F310:camUnLoadRoad
+// 8000F36C:camLoadRoad
+// 8000F454:camDraw
+// 8000F548:camEvalNearFar
+// 8000F704:camMain
+// 8000FAC8:camEntryPersp
+// 8000FD9C:camInit
+
+// dispdrv.o
+// unused:dispGetEntNum
+80010864:dispGetCurWork
+8001086C:dispCalcZ
+80010900:dispDraw
+80010B5C:dispSort
+// 80010B90:_sort
+80010BC4:dispEntry
+80010C64:dispReInit
+80010C70:dispInit
+
+// memory.o
+// text
+// unused:smartGetWorkPtr
+8002F33C:smartTexObj
+8002F378:smartGarbage
+8002F540:smartAlloc
+8002F878:smartFree
+8002F9CC:smartAutoFree
+8002FA70:L_smartReInit
+8002FBE0:smartInit
+// unused:_mapAllocDump
+8002FDC4:_mapFree
+8002FE60:_mapAllocTail
+8002FF58:_mapAlloc
+800300C4:__memFree
+800300F0:__memAlloc
+80030154:memClear
+80030218:memInit
+// data
+804151B8:size_table
+804151E0:_smartWorkPtr
+8041E808:mapalloc_base_ptr
+8041E80C:R_battlemapalloc_base_ptr
+8041E814:R_battlemapalloc_size
+8041E818:mapalloc_size
+8041E81C:heapEnd
+8041E830:heapStart
+8041E844:heapHandle
+
+// mariost.o
+// unused:gcResetDone
+// unused:gcResetCheck
+8006EDBC:L_gcResetCheck
+8006EED8:gcRumbleCheck
+// unused:gcDvdCheckCancel
+// unused:gcDvdCheckInit
+8006F1E0:gcDvdCheckThread
+8006F404:viPostCallback
+8006F7BC:marioStGetSystemLevel
+8006F7C8:marioStSystemLevel
+8006F8DC:marioStDisp
+8006F904:marioStMain
+8006FB3C:marioStInit
+// 8025DE70:N_systemErrorHandler
+// 8025E4AC:N_setupErrorHandler
+
+// fontmgr.o
+// unused:JUTFont_Draw
+// unused:JUTFont_DrawPos
+80074720:_JUTFont_DrawPos
+80074BFC:JUTFont_DrawStart
+// unused:JUTFont_GetWidth
+// unused:JUTFont_GetWidthEntry
+80074E90:JUTFont_CodeToGlyph
+// unused:JUTFont_Free
+80075004:JUTFontSetup
+// unused:JUTFont_SetWidth
+800752FC:HSV2RGB
+80075528:FontGetMessageWidth
+8007554C:FontGetMessageWidthLine
+8007586C:kanjiGetWidth
+800758E4:kanjiSearch
+80075904:hankakuSearch
+80075928:FontDrawMessageMtx
+80075FCC:FontDrawMessage
+800766E0:FontDrawStringShake
+80076A10:FontDrawStringCenterMtx
+// unused:FontDrawStringCenter
+80076CDC:FontDrawStringMtx
+80077034:FontDrawStringVecPitch
+80077368:FontDrawStringPitch
+// unused:FontDrawStringVec
+800773D0:FontDrawString
+80077438:FontDrawCodeMtx
+80077594:FontDrawCode
+8007773C:FontDrawScaleVec
+80077758:FontDrawScale
+8007776C:FontGetDrawColor
+80077774:FontDrawColor_
+800777E0:FontDrawColor
+80077844:FontDrawColorIDX
+800778B4:FontDrawNoiseOff
+800778E0:FontDrawNoise
+800779E4:FontDrawRainbowColorOff
+80077A08:FontDrawRainbowColor
+80077AA8:FontDrawEdgeOff
+80077AB4:FontDrawEdge
+80077AC0:FontDrawStart_alpha
+80077B4C:FontDrawStart
+80077BDC:fontmgrTexSetup
+80077C08:fontmgrInit
+
+// OSArena.c
+// text
+// 80296734:OSGetArenaHi
+// 8029673C:OSGetArenaLo
+// 80296744:OSSetArenaHi
+// 8029674C:OSSetArenaLo
+// 80296754:OSAllocFromArenaLo
+// data
+8041E430:__OSArenaLo
+8041F080:__OSArenaHi
+
+// OSCache.c
+// 80296A14:DCEnable
+// 80296A28:DCInvalidateRange
+80296A54:DCFlushRange
+// 80296A84:DCStoreRange
+// 80296AB4:DCFlushRangeNoSync
+// 80296AE0:DCStoreRangeNoSync
+// unused:DCZeroRange
+80296B0C:ICInvalidateRange
+// 80296B40:ICFlashInvalidate
+// 80296B50:ICEnable
+// unused:__LCEnable
+// unused:LCEnable
+// 80296B64:LCDisable
+// unused:LCStoreBlocks
+// unused:LCStoreData
+// unused:LCQueueWait
+// 80296B8C:L2GlobalInvalidate
+// 80296C24:DMAErrorHandler
+// 80296D84:__OSCacheInit
