@@ -30,7 +30,7 @@ The GCI is intended to be used with either the REL Loader gecko code (can be fou
 ## Prerequisites
 * `devkitPPC` (can be found [here](https://devkitpro.org/wiki/Getting_Started)). Note that **v47.1** was used to build this project. To find your exact version, navigate to `devKitPro\devkitPPC\bin` (the **devKitPro** folder should be where you chose to install **devkitPPC**) and run the following in a terminal such as Windows command prompt: `powerpc-eabi-gcc --version`. An example being that the version used to build this project is reported as `(devkitPPC release 47.1) 15.1.0`.  
 * `Python 3` (can be found [here](https://www.python.org/downloads/)). Note that a minimum version of **3.9** is required to build this project (see below), and that **v3.13.1** was used to build this project. For Windows users, this will need to be installed from within the **mingw64** terminal that is included with **devkitPPC**, which is explained further in the [Building](#building) section below.   
-* `pyelf2rel` (can be found [here](https://pypi.org/project/pyelf2rel/)). Requires a minimum Python version of **3.9**. Note that **v1.0.9** was used to build this project.  
+* `pyelf2rel` (can be found [here](https://pypi.org/project/pyelf2rel/)). Requires a minimum Python version of **3.9**. Note that **v1.0.9** of **pyelf2rel** was used to build this project.  
 
 ## Building
 For Windows users, **devkitPPC** comes with its own terminal that needs to be used for building projects. The specific one you want is `devKitPro/msys2/mingw64.exe` (the **devKitPro** folder should be where you chose to install **devkitPPC**). Following this, **Python** needs to be installed via this terminal, which is done via `pacman -S python`.  
