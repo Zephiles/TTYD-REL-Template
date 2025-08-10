@@ -1,5 +1,5 @@
 # Overview
-This is a template repository for creating your own REL mod for the GameCube version of Paper Mario: The Thousand-Year Door.  
+This is a very basic template repository for creating your own REL mod for the GameCube version of Paper Mario: The Thousand-Year Door. It is intentionally set up to be extremely barebones to make it easy to follow and understand, which in turn makes it very easy to confirm that your own code is working correctly.
 
 ## Project Structure
 ```
