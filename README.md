@@ -33,7 +33,7 @@ The GCI is intended to be used with either the REL Loader gecko code (can be fou
 * `pyelf2rel` (can be found [here](https://pypi.org/project/pyelf2rel/)). Requires a minimum Python version of **3.9**. Note that **v1.0.9** was used to build this project.  
 
 ## Building
-For Windows users, **devkitPPC** comes with its own terminal that needs to be used for building projects. The specific one you want is `devKitPro/msys2/mingw64.exe` (the **devKitPro** folder should be where you chose to install **devkitPPC**).  
+For Windows users, **devkitPPC** comes with its own terminal that needs to be used for building projects. The specific one you want is `devKitPro/msys2/mingw64.exe` (the **devKitPro** folder should be where you chose to install **devkitPPC**). Following this, **Python** needs to be installed via this terminal, which is done via `pacman -S python`.  
 
 To build, you must first add **DEVKITPPC** to your environment, in which it should be set to the `devkitPPC` folder. You can then run `make` from a terminal to build the GCI files. Any combination of rules can be applied to this. You should also run `make clean` after making any changes, as files built with a previous build could cause issues.  
 
